@@ -24,7 +24,7 @@ namespace NewRespository
             Console.WriteLine("Masz na imię: " + name + ", Nazwisko: " + surname + ", A wiek: " + age);
 
             // III option
-            Console.WriteLine($"Masz na imię: {name}, Nazwisko: {surname}, A wiek: {age}");
+            Console.WriteLine($"Masz na imię: {name}, Nazwisko: {surname}, Masz {age} lat.");
 
             Console.ReadLine();
 
