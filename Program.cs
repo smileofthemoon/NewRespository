@@ -17,7 +17,17 @@ namespace NewRespository
             ageStr = Console.ReadLine();
             age = int.Parse(ageStr);
 
-            Console.WriteLine("Twoje imię to:", name, "Nazwisko:", surname, "A wiek: ", age);
+            // I option
+            Console.WriteLine("Twoje imię to: {0}, Nazwisko: {1}, A wiek: {2}", name, surname, age);
+
+            // II option
+            Console.WriteLine("Twoje imię to: " + name + ", Nazwisko: " + surname + ", A wiek: " + age);
+
+            // III option
+            Console.WriteLine($"Twoje imię to: {name}, Nazwisko: {surname}, A wiek: {age}");
+
+
+
         }
     }
 }
